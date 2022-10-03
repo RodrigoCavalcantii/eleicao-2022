@@ -1,0 +1,25 @@
+.card {
+    box-shadow: 5px 5px 15px 0 rgb(0 0 0 / 50%);
+    transition: 0.3s;
+    background-color: #461f6a63;
+    color: #9b9b9b;
+    border-radius: 8px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 40px 0 purple;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw;
+    grid-gap: 40px;
+    color: #444;
+    width: 100vw;
+    justify-content: center;
+    padding: 30px;
+}
+
+.label-name {
+    color: gold;
+}
